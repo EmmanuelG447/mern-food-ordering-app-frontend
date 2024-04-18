@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import hero from "../assets/hero.png";
 
 const Hero = () => {
