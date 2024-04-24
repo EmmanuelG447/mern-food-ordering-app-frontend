@@ -12,17 +12,17 @@ const SiteMap: React.FC<SiteMapProps> = ({ containerStyle, linkStyle, headingSty
 
   const routes = [
     { path: '/', label: 'Home' },
-    { path: '/search/city', label: 'Buscar Restaurantes' },
-    { path: '/order-status', label: 'Estado del Pedido' },
-    { path: '/user-profile', label: 'Perfil de Usuario' },
-    { path: '/manage-restaurant', label: 'Administrar Restaurante' },
+    { path: '/search/city', label: 'Search Restaurant' },
+    { path: '/order-status', label: 'Order Status' },
+    { path: '/user-profile', label: 'User Profile' },
+    { path: '/manage-restaurant', label: 'Mamage Restaurant' },
     // Agrega otras rutas según sea necesario
   ];
 
   return (
     <div style={containerStyle}>
       {/* Aplicar estilos al encabezado */}
-      <h3 style={headingStyle}>Mapa del Sitio</h3>
+      <h3 style={headingStyle}>Site Map</h3>
       <ul>
         {routes.map(route => (
           <li key={route.path}>
