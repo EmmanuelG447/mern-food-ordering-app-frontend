@@ -12,7 +12,7 @@ const SiteMap: React.FC<SiteMapProps> = ({ containerStyle, linkStyle, headingSty
 
   const routes = [
     { path: '/', label: 'Home' },
-    { path: '/search/city', label: 'Search Restaurant' },
+    { path: '/search/city/a', label: 'Search Restaurant' },
     { path: '/order-status', label: 'Order Status' },
     { path: '/user-profile', label: 'User Profile' },
     { path: '/manage-restaurant', label: 'Mamage Restaurant' },
