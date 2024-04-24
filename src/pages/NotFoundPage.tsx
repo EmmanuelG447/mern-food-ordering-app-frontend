@@ -1,8 +1,11 @@
 import "./PageNotFound.css"
-import { Button } from "@/components/ui/button";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
 const NotFoundPage = () => {
   return (
     <>
+      <Header></Header>
       <div className="md:px-32 bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center mt-16">
         <h1 className="text-5xl font-bold tracking-tight text-orange-600">
         Sorry, page not found
@@ -54,9 +57,7 @@ const NotFoundPage = () => {
       </svg>
 
     </div>
-    <div className="bot">
-    <Button onClick={() => window.location.assign('/')}>Back to home</Button>
-    </div>
+    <Footer></Footer>
     </>
   );
 };
